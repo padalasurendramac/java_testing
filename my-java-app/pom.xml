@@ -9,7 +9,7 @@
     <packaging>jar</packaging>
 
     <name>DemoApplication</name>
-    <description>Spring Boot 3-Tier App with AWS</description>
+    <description>DemoApplication</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -60,6 +60,7 @@
     </dependencies>
 
     <build>
+        <finalName>DemoApplication</finalName>     
         <plugins>
             <!-- Spring Boot Maven Plugin -->
             <plugin>
